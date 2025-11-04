@@ -55,4 +55,4 @@ echo "$(date) Running migrations ..."
 faraday-manage migrate
 
 echo "$(date) Starting Faraday server with workers..."
-faraday-server --with-workers --bind 0.0.0.0
+faraday-server --bind 0.0.0.0 --port 5985
